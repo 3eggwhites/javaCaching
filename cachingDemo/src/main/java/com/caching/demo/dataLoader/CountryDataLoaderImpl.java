@@ -36,6 +36,7 @@ public class CountryDataLoaderImpl implements ICountryDataLoader {
 
 	@Override
 	public void loadCountryDataInCache() throws Exception {
+		
 		countryCache = JCS.getInstance("REF_COUNTRY");
 		countryList.forEach(country -> {
 			try {

@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.caching.demo.dataLoader.ICountryDataLoader;
-import com.caching.demo.entities.Country;
 
 @Component
 public class CacheClientImpl implements ICacheClient {

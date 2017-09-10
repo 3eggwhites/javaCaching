@@ -1,12 +1,8 @@
 package com.caching.demo.entities;
 
 import java.io.Serializable;
-import java.lang.reflect.Array;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
-
-import org.apache.commons.lang.StringUtils;
 
 public class Country implements Serializable {
 
